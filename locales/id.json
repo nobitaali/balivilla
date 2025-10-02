@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "projects": "Proyek",
+    "about": "Tentang",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Arsitektur Properti Terbaik di Bali",
+    "subtitle": "Desain, Bangun & Kelola Vila Mewah",
+    "description": "Wujudkan visi Anda dengan layanan pengembangan properti komprehensif kami di Bali",
+    "cta": "Mulai Proyek Anda",
+    "ctaSecondary": "Lihat Portofolio"
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle": "Solusi Properti Menyeluruh",
+    "architecture": {
+      "title": "Desain Arsitektur",
+      "description": "Dari konsep hingga rencana detail, kami menciptakan desain menakjubkan yang memadukan estetika modern dengan tradisi Bali"
+    },
+    "construction": {
+      "title": "Konstruksi Properti",
+      "description": "Pembangun ahli yang menghadirkan konstruksi berkualitas tinggi untuk vila, resor, dan properti komersial"
+    },
+    "management": {
+      "title": "Manajemen Vila",
+      "description": "Layanan manajemen properti lengkap memastikan investasi Anda menghasilkan keuntungan optimal"
+    },
+    "sales": {
+      "title": "Penjualan Tanah & Vila",
+      "description": "Pilihan properti premium dan peluang pengembangan terbaik di seluruh Bali"
+    },
+    "development": {
+      "title": "Pengembangan Proyek",
+      "description": "Layanan pengembangan end-to-end dari akuisisi lahan hingga properti mewah yang selesai"
+    },
+    "consultation": {
+      "title": "Konsultasi Investasi",
+      "description": "Panduan ahli tentang peluang investasi properti dan wawasan pasar di Bali"
+    }
+  },
+  "projects": {
+    "title": "Proyek Unggulan",
+    "subtitle": "Menampilkan Karya Terbaik Kami",
+    "viewProject": "Lihat Proyek"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "subtitle": "Pengalaman & Keunggulan",
+    "description": "Kami adalah perusahaan pengembangan properti dan arsitektur milik Australia yang berspesialisasi dalam pasar real estat mewah Bali. Dengan pengalaman bertahun-tahun, kami telah berhasil menyelesaikan proyek mulai dari vila pribadi intim hingga resor mewah yang luas.",
+    "stat1": "Proyek Selesai",
+    "stat2": "Tahun Pengalaman",
+    "stat3": "Klien Puas",
+    "stat4": "Anggota Tim"
+  },
+  "contact": {
+    "title": "Mulai Proyek Anda",
+    "subtitle": "Mari Wujudkan Visi Anda",
+    "name": "Nama Lengkap",
+    "email": "Alamat Email",
+    "phone": "Nomor Telepon",
+    "message": "Ceritakan tentang proyek Anda",
+    "submit": "Kirim Pesan",
+    "info": "Informasi Kontak",
+    "address": "Seminyak, Bali, Indonesia",
+    "emailLabel": "Email",
+    "phoneLabel": "Telepon"
+  },
+  "footer": {
+    "description": "Layanan pengembangan properti dan arsitektur premier di Bali, menghadirkan vila mewah dan proyek resor.",
+    "rights": "Hak cipta dilindungi.",
+    "quickLinks": "Tautan Cepat",
+    "services": "Layanan"
+  }
+}

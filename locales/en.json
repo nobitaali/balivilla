@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bali's Premier Property Architecture",
+    "subtitle": "Design, Build & Manage Luxury Villas",
+    "description": "Transform your vision into reality with our comprehensive property development services in Bali",
+    "cta": "Start Your Project",
+    "ctaSecondary": "View Portfolio"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Property Solutions",
+    "architecture": {
+      "title": "Architecture Design",
+      "description": "From concept to detailed plans, we create stunning designs that blend modern aesthetics with Balinese tradition"
+    },
+    "construction": {
+      "title": "Property Construction",
+      "description": "Expert builders delivering high-quality construction for villas, resorts, and commercial properties"
+    },
+    "management": {
+      "title": "Villa Management",
+      "description": "Full-service property management ensuring your investment generates optimal returns"
+    },
+    "sales": {
+      "title": "Land & Villa Sales",
+      "description": "Curated selection of prime properties and development opportunities across Bali"
+    },
+    "development": {
+      "title": "Project Development",
+      "description": "End-to-end development services from land acquisition to completed luxury properties"
+    },
+    "consultation": {
+      "title": "Investment Consultation",
+      "description": "Expert guidance on property investment opportunities and market insights in Bali"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Showcasing Our Finest Work",
+    "viewProject": "View Project"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Experience & Excellence",
+    "description": "We are an Australian-owned property development and architecture firm specializing in Bali's luxury real estate market. With years of experience, we've successfully delivered projects ranging from intimate private villas to expansive luxury resorts.",
+    "stat1": "Projects Completed",
+    "stat2": "Years Experience",
+    "stat3": "Happy Clients",
+    "stat4": "Team Members"
+  },
+  "contact": {
+    "title": "Start Your Project",
+    "subtitle": "Let's Bring Your Vision to Life",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Tell us about your project",
+    "submit": "Send Message",
+    "info": "Contact Information",
+    "address": "Seminyak, Bali, Indonesia",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone"
+  },
+  "footer": {
+    "description": "Premier property development and architecture services in Bali, delivering luxury villas and resort projects.",
+    "rights": "All rights reserved.",
+    "quickLinks": "Quick Links",
+    "services": "Services"
+  }
+}
