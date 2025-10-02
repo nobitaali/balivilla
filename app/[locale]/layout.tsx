@@ -44,13 +44,15 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
 
   let messages;
   try {
-    messages = (await import(`../../locales/${locale}.json`)).default;
+    messages = locale === 'en' || locale === 'id'
+      ? (await import(`../../locales/${locale}.json`)).default
+      : notFound();
   } catch (error) {
     notFound();
   }
