@@ -69,11 +69,11 @@ export default function Projects() {
               </div>
 
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <span className="inline-block px-3 py-1 bg-amber-600 rounded-full text-sm font-medium mb-3">
+                <span className="inline-block px-3 py-1 bg-white text-black rounded-full text-sm font-medium mb-3">
                   {project.category}
                 </span>
                 <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
-                <button className="flex items-center space-x-2 text-amber-400 hover:text-amber-300 transition-colors font-medium group/btn">
+                <button className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors font-medium group/btn">
                   <span>{t('viewProject')}</span>
                   <ArrowRight
                     size={18}

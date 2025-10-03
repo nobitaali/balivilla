@@ -40,7 +40,7 @@ export default function Footer() {
                   <a
                     key={index}
                     href={social.href}
-                    className="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center hover:bg-amber-600 transition-all duration-300"
+                    className="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300"
                   >
                     <Icon size={20} />
                   </a>
@@ -56,7 +56,7 @@ export default function Footer() {
                 <li key={link.key}>
                   <a
                     href={link.href}
-                    className="text-slate-400 hover:text-amber-400 transition-colors"
+                    className="text-slate-400 hover:text-white transition-colors"
                   >
                     {tNav(link.key as any)}
                   </a>
@@ -71,7 +71,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#services"
-                  className="text-slate-400 hover:text-amber-400 transition-colors"
+                  className="text-slate-400 hover:text-white transition-colors"
                 >
                   Architecture Design
                 </a>
@@ -79,7 +79,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#services"
-                  className="text-slate-400 hover:text-amber-400 transition-colors"
+                  className="text-slate-400 hover:text-white transition-colors"
                 >
                   Construction
                 </a>
@@ -87,7 +87,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#services"
-                  className="text-slate-400 hover:text-amber-400 transition-colors"
+                  className="text-slate-400 hover:text-white transition-colors"
                 >
                   Villa Management
                 </a>
@@ -95,7 +95,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#services"
-                  className="text-slate-400 hover:text-amber-400 transition-colors"
+                  className="text-slate-400 hover:text-white transition-colors"
                 >
                   Property Sales
                 </a>

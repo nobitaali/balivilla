@@ -24,7 +24,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 font-serif leading-tight">
             {t('title')}
           </h1>
-          <p className="text-xl md:text-2xl text-amber-400 mb-4 font-medium">
+          <p className="text-xl md:text-2xl text-gray-300 mb-4 font-medium">
             {t('subtitle')}
           </p>
           <p className="text-lg md:text-xl text-slate-200 mb-12 max-w-3xl mx-auto">
@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#contact"
-              className="group px-8 py-4 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-700 transition-all duration-300 flex items-center space-x-2 shadow-xl hover:shadow-2xl hover:scale-105"
+              className="group px-8 py-4 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition-all duration-300 flex items-center space-x-2 shadow-xl hover:shadow-2xl hover:scale-105"
             >
               <span>{t('cta')}</span>
               <ArrowRight

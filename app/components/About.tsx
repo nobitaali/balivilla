@@ -7,10 +7,10 @@ export default function About() {
   const t = useTranslations('about');
 
   const stats = [
-    { icon: Building, value: '150+', label: t('stat1'), color: 'text-blue-600' },
-    { icon: Clock, value: '15+', label: t('stat2'), color: 'text-amber-600' },
-    { icon: Users, value: '300+', label: t('stat3'), color: 'text-green-600' },
-    { icon: Award, value: '50+', label: t('stat4'), color: 'text-rose-600' },
+    { icon: Building, value: '150+', label: t('stat1'), color: 'text-white' },
+    { icon: Clock, value: '15+', label: t('stat2'), color: 'text-gray-300' },
+    { icon: Users, value: '300+', label: t('stat3'), color: 'text-gray-200' },
+    { icon: Award, value: '50+', label: t('stat4'), color: 'text-gray-100' },
   ];
 
   return (
@@ -32,7 +32,7 @@ export default function About() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 font-serif">
               {t('title')}
             </h2>
-            <p className="text-xl text-amber-400 mb-6 font-medium">
+            <p className="text-xl text-gray-300 mb-6 font-medium">
               {t('subtitle')}
             </p>
             <p className="text-lg text-slate-300 leading-relaxed mb-8">

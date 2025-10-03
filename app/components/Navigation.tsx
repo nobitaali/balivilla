@@ -58,7 +58,7 @@ export default function Navigation() {
               <a
                 key={item.key}
                 href={item.href}
-                className={`transition-colors hover:text-amber-600 ${
+                className={`transition-colors hover:text-gray-600 ${
                   isScrolled ? 'text-slate-700' : 'text-white'
                 }`}
               >
@@ -96,7 +96,7 @@ export default function Navigation() {
               <a
                 key={item.key}
                 href={item.href}
-                className="block text-slate-700 hover:text-amber-600 transition-colors py-2"
+                className="block text-slate-700 hover:text-gray-600 transition-colors py-2"
                 onClick={() => setIsOpen(false)}
               >
                 {t(item.key as any)}

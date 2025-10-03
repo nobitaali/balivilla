@@ -10,32 +10,32 @@ export default function Services() {
     {
       icon: Palette,
       key: 'architecture',
-      gradient: 'from-blue-500 to-cyan-500',
+      gradient: 'from-gray-800 to-black',
     },
     {
       icon: Hammer,
       key: 'construction',
-      gradient: 'from-amber-500 to-orange-500',
+      gradient: 'from-gray-700 to-gray-900',
     },
     {
       icon: Home,
       key: 'management',
-      gradient: 'from-green-500 to-emerald-500',
+      gradient: 'from-gray-600 to-gray-800',
     },
     {
       icon: TrendingUp,
       key: 'sales',
-      gradient: 'from-rose-500 to-pink-500',
+      gradient: 'from-black to-gray-800',
     },
     {
       icon: Building2,
       key: 'development',
-      gradient: 'from-violet-500 to-purple-500',
+      gradient: 'from-gray-900 to-black',
     },
     {
       icon: Lightbulb,
       key: 'consultation',
-      gradient: 'from-yellow-500 to-amber-500',
+      gradient: 'from-gray-800 to-gray-600',
     },
   ];
 
