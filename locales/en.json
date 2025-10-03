@@ -18,11 +18,65 @@
     "subtitle": "Comprehensive Property Solutions",
     "architecture": {
       "title": "Architecture Design",
-      "description": "From concept to detailed plans, we create stunning designs that blend modern aesthetics with Balinese tradition"
+      "description": "From concept to detailed plans, we create stunning designs that blend modern aesthetics with Balinese tradition",
+      "subtitle": "Creating Exceptional Architectural Designs",
+      "about": {
+        "title": "Our Architecture Approach",
+        "description1": "We specialize in creating architectural designs that seamlessly blend contemporary aesthetics with traditional Balinese elements. Our team of experienced architects understands the unique challenges and opportunities of building in Bali's tropical environment.",
+        "description2": "From initial concept sketches to detailed construction drawings, we ensure every project reflects our clients' vision while respecting local building codes and environmental considerations."
+      },
+      "features": {
+        "design": {
+          "title": "Creative Design",
+          "description": "Innovative architectural solutions that maximize space, light, and natural ventilation"
+        },
+        "planning": {
+          "title": "Detailed Planning",
+          "description": "Comprehensive technical drawings and specifications for seamless construction"
+        },
+        "visualization": {
+          "title": "3D Visualization",
+          "description": "Photorealistic renderings to help you visualize your project before construction"
+        },
+        "quality": {
+          "title": "Quality Assurance",
+          "description": "Rigorous design review process ensuring structural integrity and aesthetic excellence"
+        }
+      },
+      "projects": {
+        "title": "Architecture Portfolio"
+      }
     },
     "construction": {
       "title": "Property Construction",
-      "description": "Expert builders delivering high-quality construction for villas, resorts, and commercial properties"
+      "description": "Expert builders delivering high-quality construction for villas, resorts, and commercial properties",
+      "subtitle": "Building Excellence in Every Project",
+      "about": {
+        "title": "Our Construction Excellence",
+        "description1": "With over 15 years of construction experience in Bali, we deliver projects that exceed expectations. Our skilled team combines international standards with local expertise to create exceptional properties.",
+        "description2": "We manage every aspect of construction from foundation to finishing, ensuring quality, safety, and timely completion of your project."
+      },
+      "features": {
+        "expertise": {
+          "title": "Expert Craftsmanship",
+          "description": "Skilled craftsmen with years of experience in luxury property construction"
+        },
+        "safety": {
+          "title": "Safety Standards",
+          "description": "Strict adherence to international safety protocols and local building regulations"
+        },
+        "timeline": {
+          "title": "On-Time Delivery",
+          "description": "Proven track record of completing projects within agreed timelines"
+        },
+        "quality": {
+          "title": "Quality Control",
+          "description": "Rigorous quality checks at every stage of construction"
+        }
+      },
+      "projects": {
+        "title": "Construction Projects"
+      }
     },
     "management": {
       "title": "Villa Management",
@@ -39,6 +93,122 @@
     "consultation": {
       "title": "Investment Consultation",
       "description": "Expert guidance on property investment opportunities and market insights in Bali"
+    },
+    "land": {
+      "title": "Land Acquisition",
+      "subtitle": "Prime Land Opportunities in Bali",
+      "about": {
+        "title": "Strategic Land Investment",
+        "description1": "We specialize in identifying and securing prime land opportunities across Bali's most desirable locations. Our deep understanding of local regulations and market dynamics ensures you make informed investment decisions.",
+        "description2": "From beachfront plots to hillside retreats, we help you find the perfect location for your development project or investment portfolio."
+      },
+      "features": {
+        "location": {
+          "title": "Prime Locations",
+          "description": "Access to exclusive land opportunities in Bali's most sought-after areas"
+        },
+        "investment": {
+          "title": "Investment Analysis",
+          "description": "Comprehensive market analysis and investment potential assessment"
+        },
+        "legal": {
+          "title": "Legal Support",
+          "description": "Complete legal assistance for land acquisition and ownership structures"
+        },
+        "consultation": {
+          "title": "Expert Consultation",
+          "description": "Professional guidance throughout the entire land acquisition process"
+        }
+      },
+      "projects": {
+        "title": "Available Land"
+      },
+      "process": {
+        "title": "Our Land Acquisition Process",
+        "step1": {
+          "title": "Site Identification",
+          "description": "We identify prime locations based on your investment goals and budget requirements"
+        },
+        "step2": {
+          "title": "Due Diligence",
+          "description": "Comprehensive legal and technical assessment of the property and surrounding area"
+        },
+        "step3": {
+          "title": "Negotiation",
+          "description": "Professional negotiation to secure the best possible terms and pricing"
+        },
+        "step4": {
+          "title": "Completion",
+          "description": "Full legal support through to successful ownership transfer and registration"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose Our Land Services",
+        "description": "With extensive local knowledge and proven expertise, we help you secure the perfect land investment in Bali's most desirable locations.",
+        "stat1": "Years Experience",
+        "stat2": "Hectares Sold",
+        "stat3": "Success Rate"
+      }
+    },
+    "furniture": {
+      "title": "Custom Furniture",
+      "subtitle": "Handcrafted Furniture for Luxury Living",
+      "about": {
+        "title": "Artisan Furniture Design",
+        "description1": "Our furniture workshop creates bespoke pieces using traditional Balinese craftsmanship combined with contemporary design principles. Each piece is carefully crafted using sustainable local materials.",
+        "description2": "From teak dining sets to bamboo loungers, we create furniture that perfectly complements your property's aesthetic while providing lasting comfort and beauty."
+      },
+      "features": {
+        "custom": {
+          "title": "Custom Design",
+          "description": "Bespoke furniture pieces designed to match your property's unique style"
+        },
+        "craftsmanship": {
+          "title": "Master Craftsmanship",
+          "description": "Skilled artisans with generations of woodworking and furniture-making expertise"
+        },
+        "delivery": {
+          "title": "Full Service",
+          "description": "Complete service from design consultation to delivery and installation"
+        },
+        "materials": {
+          "title": "Premium Materials",
+          "description": "Sustainably sourced teak, bamboo, and rattan from certified suppliers"
+        }
+      },
+      "projects": {
+        "title": "Furniture Collections"
+      }
+    },
+    "villaManagement": {
+      "title": "Villa Management",
+      "subtitle": "Maximizing Your Property Investment",
+      "about": {
+        "title": "Professional Villa Management",
+        "description1": "Our comprehensive villa management service ensures your property generates maximum rental income while maintaining its pristine condition. We handle everything from guest relations to maintenance and marketing.",
+        "description2": "With our proven track record of achieving high occupancy rates and guest satisfaction scores, you can trust us to protect and grow your investment."
+      },
+      "features": {
+        "maintenance": {
+          "title": "Property Maintenance",
+          "description": "Regular maintenance and upkeep to keep your villa in perfect condition"
+        },
+        "guest": {
+          "title": "Guest Services",
+          "description": "Professional guest management ensuring exceptional experiences and reviews"
+        },
+        "security": {
+          "title": "Security & Safety",
+          "description": "24/7 security monitoring and safety protocols for peace of mind"
+        },
+        "revenue": {
+          "title": "Revenue Optimization",
+          "description": "Dynamic pricing and marketing strategies to maximize rental income"
+        }
+      },
+      "projects": {
+        "title": "Managed Properties"
+      }
     }
   },
   "projects": {

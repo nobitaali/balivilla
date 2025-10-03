@@ -18,11 +18,65 @@
     "subtitle": "Solusi Properti Menyeluruh",
     "architecture": {
       "title": "Desain Arsitektur",
-      "description": "Dari konsep hingga rencana detail, kami menciptakan desain menakjubkan yang memadukan estetika modern dengan tradisi Bali"
+      "description": "Dari konsep hingga rencana detail, kami menciptakan desain menakjubkan yang memadukan estetika modern dengan tradisi Bali",
+      "subtitle": "Menciptakan Desain Arsitektur Luar Biasa",
+      "about": {
+        "title": "Pendekatan Arsitektur Kami",
+        "description1": "Kami mengkhususkan diri dalam menciptakan desain arsitektur yang memadukan estetika kontemporer dengan elemen tradisional Bali. Tim arsitek berpengalaman kami memahami tantangan dan peluang unik membangun di lingkungan tropis Bali.",
+        "description2": "Dari sketsa konsep awal hingga gambar konstruksi detail, kami memastikan setiap proyek mencerminkan visi klien sambil menghormati kode bangunan lokal dan pertimbangan lingkungan."
+      },
+      "features": {
+        "design": {
+          "title": "Desain Kreatif",
+          "description": "Solusi arsitektur inovatif yang memaksimalkan ruang, cahaya, dan ventilasi alami"
+        },
+        "planning": {
+          "title": "Perencanaan Detail",
+          "description": "Gambar teknis dan spesifikasi komprehensif untuk konstruksi yang mulus"
+        },
+        "visualization": {
+          "title": "Visualisasi 3D",
+          "description": "Rendering fotorealistik untuk membantu Anda memvisualisasikan proyek sebelum konstruksi"
+        },
+        "quality": {
+          "title": "Jaminan Kualitas",
+          "description": "Proses review desain yang ketat memastikan integritas struktural dan keunggulan estetika"
+        }
+      },
+      "projects": {
+        "title": "Portofolio Arsitektur"
+      }
     },
     "construction": {
       "title": "Konstruksi Properti",
-      "description": "Pembangun ahli yang menghadirkan konstruksi berkualitas tinggi untuk vila, resor, dan properti komersial"
+      "description": "Pembangun ahli yang menghadirkan konstruksi berkualitas tinggi untuk vila, resor, dan properti komersial",
+      "subtitle": "Membangun Keunggulan di Setiap Proyek",
+      "about": {
+        "title": "Keunggulan Konstruksi Kami",
+        "description1": "Dengan lebih dari 15 tahun pengalaman konstruksi di Bali, kami menghadirkan proyek yang melampaui ekspektasi. Tim terampil kami menggabungkan standar internasional dengan keahlian lokal untuk menciptakan properti luar biasa.",
+        "description2": "Kami mengelola setiap aspek konstruksi dari pondasi hingga finishing, memastikan kualitas, keamanan, dan penyelesaian tepat waktu proyek Anda."
+      },
+      "features": {
+        "expertise": {
+          "title": "Keahlian Tukang",
+          "description": "Tukang terampil dengan pengalaman bertahun-tahun dalam konstruksi properti mewah"
+        },
+        "safety": {
+          "title": "Standar Keamanan",
+          "description": "Kepatuhan ketat terhadap protokol keamanan internasional dan peraturan bangunan lokal"
+        },
+        "timeline": {
+          "title": "Pengiriman Tepat Waktu",
+          "description": "Rekam jejak terbukti menyelesaikan proyek dalam jadwal yang disepakati"
+        },
+        "quality": {
+          "title": "Kontrol Kualitas",
+          "description": "Pemeriksaan kualitas ketat di setiap tahap konstruksi"
+        }
+      },
+      "projects": {
+        "title": "Proyek Konstruksi"
+      }
     },
     "management": {
       "title": "Manajemen Vila",
@@ -39,6 +93,122 @@
     "consultation": {
       "title": "Konsultasi Investasi",
       "description": "Panduan ahli tentang peluang investasi properti dan wawasan pasar di Bali"
+    },
+    "land": {
+      "title": "Akuisisi Tanah",
+      "subtitle": "Peluang Tanah Premium di Bali",
+      "about": {
+        "title": "Investasi Tanah Strategis",
+        "description1": "Kami mengkhususkan diri dalam mengidentifikasi dan mengamankan peluang tanah premium di lokasi paling diinginkan di Bali. Pemahaman mendalam kami tentang peraturan lokal dan dinamika pasar memastikan Anda membuat keputusan investasi yang tepat.",
+        "description2": "Dari plot tepi pantai hingga retret perbukitan, kami membantu Anda menemukan lokasi sempurna untuk proyek pengembangan atau portofolio investasi Anda."
+      },
+      "features": {
+        "location": {
+          "title": "Lokasi Premium",
+          "description": "Akses ke peluang tanah eksklusif di area paling dicari di Bali"
+        },
+        "investment": {
+          "title": "Analisis Investasi",
+          "description": "Analisis pasar komprehensif dan penilaian potensi investasi"
+        },
+        "legal": {
+          "title": "Dukungan Hukum",
+          "description": "Bantuan hukum lengkap untuk akuisisi tanah dan struktur kepemilikan"
+        },
+        "consultation": {
+          "title": "Konsultasi Ahli",
+          "description": "Panduan profesional sepanjang seluruh proses akuisisi tanah"
+        }
+      },
+      "projects": {
+        "title": "Tanah Tersedia"
+      },
+      "process": {
+        "title": "Proses Akuisisi Tanah Kami",
+        "step1": {
+          "title": "Identifikasi Lokasi",
+          "description": "Kami mengidentifikasi lokasi premium berdasarkan tujuan investasi dan persyaratan anggaran Anda"
+        },
+        "step2": {
+          "title": "Uji Tuntas",
+          "description": "Penilaian hukum dan teknis komprehensif terhadap properti dan area sekitarnya"
+        },
+        "step3": {
+          "title": "Negosiasi",
+          "description": "Negosiasi profesional untuk mengamankan syarat dan harga terbaik"
+        },
+        "step4": {
+          "title": "Penyelesaian",
+          "description": "Dukungan hukum penuh hingga transfer kepemilikan dan registrasi yang sukses"
+        }
+      },
+      "whyChoose": {
+        "title": "Mengapa Memilih Layanan Tanah Kami",
+        "description": "Dengan pengetahuan lokal yang luas dan keahlian terbukti, kami membantu Anda mengamankan investasi tanah sempurna di lokasi paling diinginkan di Bali.",
+        "stat1": "Tahun Pengalaman",
+        "stat2": "Hektar Terjual",
+        "stat3": "Tingkat Keberhasilan"
+      }
+    },
+    "furniture": {
+      "title": "Furnitur Kustom",
+      "subtitle": "Furnitur Buatan Tangan untuk Kehidupan Mewah",
+      "about": {
+        "title": "Desain Furnitur Artisan",
+        "description1": "Workshop furnitur kami menciptakan karya bespoke menggunakan kerajinan tradisional Bali yang dikombinasikan dengan prinsip desain kontemporer. Setiap karya dibuat dengan hati-hati menggunakan bahan lokal berkelanjutan.",
+        "description2": "Dari set makan jati hingga kursi santai bambu, kami menciptakan furnitur yang sempurna melengkapi estetika properti Anda sambil memberikan kenyamanan dan keindahan yang tahan lama."
+      },
+      "features": {
+        "custom": {
+          "title": "Desain Kustom",
+          "description": "Karya furnitur bespoke yang dirancang sesuai gaya unik properti Anda"
+        },
+        "craftsmanship": {
+          "title": "Keahlian Master",
+          "description": "Pengrajin terampil dengan keahlian pembuatan kayu dan furnitur turun temurun"
+        },
+        "delivery": {
+          "title": "Layanan Lengkap",
+          "description": "Layanan lengkap dari konsultasi desain hingga pengiriman dan instalasi"
+        },
+        "materials": {
+          "title": "Bahan Premium",
+          "description": "Jati, bambu, dan rotan berkelanjutan dari pemasok bersertifikat"
+        }
+      },
+      "projects": {
+        "title": "Koleksi Furnitur"
+      }
+    },
+    "villaManagement": {
+      "title": "Manajemen Vila",
+      "subtitle": "Memaksimalkan Investasi Properti Anda",
+      "about": {
+        "title": "Manajemen Vila Profesional",
+        "description1": "Layanan manajemen vila komprehensif kami memastikan properti Anda menghasilkan pendapatan sewa maksimal sambil mempertahankan kondisi pristine. Kami menangani segala hal dari hubungan tamu hingga pemeliharaan dan pemasaran.",
+        "description2": "Dengan rekam jejak terbukti mencapai tingkat okupansi tinggi dan skor kepuasan tamu, Anda dapat mempercayai kami untuk melindungi dan mengembangkan investasi Anda."
+      },
+      "features": {
+        "maintenance": {
+          "title": "Pemeliharaan Properti",
+          "description": "Pemeliharaan dan perawatan rutin untuk menjaga vila Anda dalam kondisi sempurna"
+        },
+        "guest": {
+          "title": "Layanan Tamu",
+          "description": "Manajemen tamu profesional memastikan pengalaman luar biasa dan ulasan positif"
+        },
+        "security": {
+          "title": "Keamanan & Keselamatan",
+          "description": "Pemantauan keamanan 24/7 dan protokol keselamatan untuk ketenangan pikiran"
+        },
+        "revenue": {
+          "title": "Optimisasi Pendapatan",
+          "description": "Strategi penetapan harga dinamis dan pemasaran untuk memaksimalkan pendapatan sewa"
+        }
+      },
+      "projects": {
+        "title": "Properti yang Dikelola"
+      }
     }
   },
   "projects": {

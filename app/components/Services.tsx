@@ -1,41 +1,43 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { Palette, Hammer, Hop as Home, TrendingUp, Building2, Lightbulb } from 'lucide-react';
+import { useTranslations, useLocale } from 'next-intl';
+import { MapPin, Palette, Sofa, Home, Hammer } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Services() {
   const t = useTranslations('services');
+  const locale = useLocale();
 
   const services = [
     {
+      icon: MapPin,
+      key: 'land',
+      gradient: 'from-gray-800 to-black',
+      href: `/${locale}/services/land`,
+    },
+    {
       icon: Palette,
       key: 'architecture',
-      gradient: 'from-gray-800 to-black',
+      gradient: 'from-gray-700 to-gray-900',
+      href: `/${locale}/services/architecture`,
+    },
+    {
+      icon: Sofa,
+      key: 'furniture',
+      gradient: 'from-gray-600 to-gray-800',
+      href: `/${locale}/services/furniture`,
+    },
+    {
+      icon: Home,
+      key: 'villaManagement',
+      gradient: 'from-black to-gray-800',
+      href: `/${locale}/services/villa-management`,
     },
     {
       icon: Hammer,
       key: 'construction',
-      gradient: 'from-gray-700 to-gray-900',
-    },
-    {
-      icon: Home,
-      key: 'management',
-      gradient: 'from-gray-600 to-gray-800',
-    },
-    {
-      icon: TrendingUp,
-      key: 'sales',
-      gradient: 'from-black to-gray-800',
-    },
-    {
-      icon: Building2,
-      key: 'development',
       gradient: 'from-gray-900 to-black',
-    },
-    {
-      icon: Lightbulb,
-      key: 'consultation',
-      gradient: 'from-gray-800 to-gray-600',
+      href: `/${locale}/services/construction`,
     },
   ];
 
@@ -55,9 +57,10 @@ export default function Services() {
           {services.map((service) => {
             const Icon = service.icon;
             return (
-              <div
+              <Link
                 key={service.key}
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                href={service.href}
+                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 block"
               >
                 <div
                   className={`w-16 h-16 rounded-xl bg-gradient-to-br ${service.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}
@@ -70,7 +73,7 @@ export default function Services() {
                 <p className="text-slate-600 leading-relaxed">
                   {t(`${service.key}.description` as any)}
                 </p>
-              </div>
+              </Link>
             );
           })}
         </div>
