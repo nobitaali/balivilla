@@ -1,13 +1,51 @@
-'use client';
-
-import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 import { MapPin, TrendingUp, Shield, Users } from 'lucide-react';
 import Navigation from '../../../components/Navigation';
 import Footer from '../../../components/Footer';
 
-export default function LandPage() {
-  const t = useTranslations('services.land');
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params;
+  
+  const title = locale === 'en' 
+    ? 'Land Acquisition Services - Prime Land Opportunities in Bali | Balitecture'
+    : 'Layanan Akuisisi Tanah - Peluang Tanah Premium di Bali | Balitecture';
+    
+  const description = locale === 'en'
+    ? 'Strategic land investment opportunities in Bali\'s most desirable locations. Expert guidance, legal support, and market analysis for successful land acquisition.'
+    : 'Peluang investasi tanah strategis di lokasi paling diinginkan di Bali. Panduan ahli, dukungan hukum, dan analisis pasar untuk akuisisi tanah yang sukses.';
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `https://balitecture.com/${locale}/services/land`,
+      languages: {
+        'en': '/en/services/land',
+        'id': '/id/services/land',
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `https://balitecture.com/${locale}/services/land`,
+      locale: locale === 'en' ? 'en_US' : 'id_ID',
+    },
+  };
+}
+
+export default async function LandPage({
+  params
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params;
+  const t = await getTranslations('services.land');
 
   const features = [
     {

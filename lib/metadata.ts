@@ -1,23 +1,7 @@
-import '../globals.css';
-import type { Metadata } from 'next';
-import { Playfair_Display, Inter } from 'next/font/google';
-import { NextIntlClientProvider } from 'next-intl';
-import { notFound } from 'next/navigation';
+import { Metadata } from 'next'
 
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
-  display: 'swap',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
-
-export const metadata: Metadata = {
-  metadataBase: new URL('https://balitecture.com'),
+export const defaultMetadata: Metadata = {
+  metadataBase: new URL('https://balitecture.com'), // Replace with your actual domain
   title: {
     default: 'Balitecture - Premier Property Development & Architecture in Bali',
     template: '%s | Balitecture'
@@ -54,7 +38,7 @@ export const metadata: Metadata = {
     description: 'Leading property development and architecture firm in Bali. We design, build, and manage luxury villas, resorts, and commercial properties.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.jpg', // You'll need to add this image
         width: 1200,
         height: 630,
         alt: 'Balitecture - Luxury Property Development in Bali',
@@ -65,8 +49,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Balitecture - Premier Property Development & Architecture in Bali',
     description: 'Leading property development and architecture firm in Bali. We design, build, and manage luxury villas, resorts, and commercial properties.',
-    images: ['/og-image.jpg'],
-    creator: '@balitecture',
+    images: ['/og-image.jpg'], // You'll need to add this image
+    creator: '@balitecture', // Replace with your actual Twitter handle
   },
   robots: {
     index: true,
@@ -79,44 +63,49 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://balitecture.com',
-    languages: {
-      'en': '/en',
-      'id': '/id',
-    },
+  verification: {
+    google: 'your-google-verification-code', // Replace with your actual verification code
+    // yandex: 'your-yandex-verification-code',
+    // yahoo: 'your-yahoo-verification-code',
   },
-};
-
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'id' }];
 }
 
-export default async function LocaleLayout({
-  children,
-  params
+export function generatePageMetadata({
+  title,
+  description,
+  path,
+  locale = 'en',
+  images,
 }: {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-
-  let messages;
-  try {
-    messages = locale === 'en' || locale === 'id'
-      ? (await import(`../../locales/${locale}.json`)).default
-      : notFound();
-  } catch (error) {
-    notFound();
+  title: string
+  description: string
+  path: string
+  locale?: string
+  images?: string[]
+}): Metadata {
+  const url = `https://balitecture.com${path}`
+  
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: url,
+      languages: {
+        'en': `/en${path.replace(/^\/(en|id)/, '')}`,
+        'id': `/id${path.replace(/^\/(en|id)/, '')}`,
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      images: images || ['/og-image.jpg'],
+      locale: locale === 'en' ? 'en_US' : 'id_ID',
+    },
+    twitter: {
+      title,
+      description,
+      images: images || ['/og-image.jpg'],
+    },
   }
-
-  return (
-    <html lang={locale}>
-      <body className={`${inter.variable} ${playfair.variable} font-sans`}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
-  );
 }

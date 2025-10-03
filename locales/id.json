@@ -243,5 +243,359 @@
     "rights": "Hak cipta dilindungi.",
     "quickLinks": "Tautan Cepat",
     "services": "Layanan"
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Layanan Kami",
+      "subtitle": "Solusi Properti Komprehensif untuk Setiap Kebutuhan"
+    },
+    "overview": {
+      "title": "Apa yang Kami Lakukan",
+      "description": "Dari akuisisi lahan hingga penyelesaian konstruksi, kami menyediakan layanan pengembangan properti end-to-end yang mengubah visi Anda menjadi kenyataan."
+    },
+    "services": {
+      "land": {
+        "title": "Akuisisi Tanah",
+        "description": "Peluang investasi tanah strategis di lokasi paling diinginkan di Bali dengan dukungan hukum lengkap."
+      },
+      "architecture": {
+        "title": "Desain Arsitektur",
+        "description": "Solusi arsitektur inovatif yang memadukan estetika modern dengan elemen tradisional Bali."
+      },
+      "furniture": {
+        "title": "Furnitur Kustom",
+        "description": "Karya furnitur buatan tangan menggunakan kerajinan tradisional dan bahan lokal berkelanjutan."
+      },
+      "villaManagement": {
+        "title": "Manajemen Vila",
+        "description": "Layanan manajemen properti profesional untuk memaksimalkan keuntungan investasi dan kepuasan tamu."
+      },
+      "construction": {
+        "title": "Konstruksi",
+        "description": "Layanan konstruksi ahli menghadirkan bangunan berkualitas tinggi dengan standar internasional."
+      }
+    },
+    "learnMore": "Pelajari Lebih Lanjut",
+    "stats": {
+      "title": "Rekam Jejak Kami",
+      "description": "Angka-angka yang menunjukkan komitmen kami terhadap keunggulan dan kepuasan klien.",
+      "projects": "Proyek Selesai",
+      "years": "Tahun Pengalaman",
+      "clients": "Klien Puas",
+      "awards": "Penghargaan Industri"
+    },
+    "process": {
+      "title": "Proses Kami",
+      "description": "Metodologi terbukti yang memastikan pengiriman proyek sukses dari konsep hingga penyelesaian.",
+      "step1": {
+        "title": "Konsultasi",
+        "description": "Memahami visi, kebutuhan, dan anggaran Anda untuk menciptakan rencana yang sempurna."
+      },
+      "step2": {
+        "title": "Desain & Perencanaan",
+        "description": "Rencana arsitektur detail dan timeline proyek dengan semua izin yang diperlukan."
+      },
+      "step3": {
+        "title": "Konstruksi",
+        "description": "Eksekusi ahli dengan update rutin dan kontrol kualitas di setiap tahap."
+      },
+      "step4": {
+        "title": "Penyelesaian",
+        "description": "Inspeksi akhir, serah terima, dan dukungan berkelanjutan untuk properti baru Anda."
+      }
+    },
+    "testimonials": {
+      "title": "Apa Kata Klien Kami",
+      "description": "Pengalaman nyata dari klien yang puas yang mempercayai kami dengan impian properti mereka.",
+      "client1": {
+        "role": "Pemilik Vila",
+        "content": "Balitecture mengubah visi kami menjadi kenyataan yang menakjubkan. Perhatian mereka terhadap detail dan profesionalisme melampaui ekspektasi kami."
+      },
+      "client2": {
+        "role": "Pengembang Resor",
+        "content": "Bekerja dengan Balitecture sangat lancar. Mereka menyelesaikan proyek resor kami tepat waktu dan sesuai anggaran dengan kualitas luar biasa."
+      },
+      "client3": {
+        "role": "Investor Properti",
+        "content": "Layanan akuisisi tanah mereka membantu kami menemukan peluang investasi yang sempurna. Dukungan hukumnya sangat berharga."
+      }
+    },
+    "cta": {
+      "title": "Siap Memulai Proyek Anda?",
+      "description": "Mari diskusikan bagaimana kami dapat mewujudkan visi properti Anda dengan layanan komprehensif kami.",
+      "button": "Mulai Hari Ini"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Tentang Balitecture",
+      "subtitle": "Membangun Impian, Menciptakan Warisan"
+    },
+    "story": {
+      "title": "Cerita Kami",
+      "description1": "Didirikan pada 2008 oleh tim arsitek dan pengembang yang bersemangat, Balitecture dimulai dengan misi sederhana: menciptakan properti luar biasa yang menghormati keindahan alam Bali sambil memenuhi standar internasional.",
+      "description2": "Selama bertahun-tahun, kami telah berkembang dari studio desain kecil menjadi perusahaan pengembangan properti komprehensif, menyelesaikan lebih dari 150 proyek di seluruh Bali. Karya kami mencakup vila mewah, resor butik, ruang komersial, dan pengembangan residensial.",
+      "description3": "Yang membedakan kami adalah pemahaman mendalam tentang budaya lokal, regulasi, dan kerajinan, dikombinasikan dengan keahlian internasional dan prinsip desain modern. Setiap proyek yang kami lakukan mencerminkan komitmen kami terhadap keunggulan, keberlanjutan, dan kepuasan klien."
+    },
+    "stats": {
+      "projects": "Proyek Selesai",
+      "years": "Tahun Pengalaman",
+      "clients": "Klien Puas",
+      "awards": "Penghargaan Industri"
+    },
+    "values": {
+      "title": "Nilai-Nilai Kami",
+      "description": "Prinsip-prinsip yang memandu segala yang kami lakukan dan membentuk hubungan kami dengan klien, mitra, dan komunitas.",
+      "excellence": {
+        "title": "Keunggulan",
+        "description": "Kami berusaha untuk kesempurnaan dalam setiap detail, dari desain awal hingga konstruksi akhir."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Cinta kami terhadap arsitektur dan desain mendorong kami untuk menciptakan ruang yang benar-benar luar biasa."
+      },
+      "integrity": {
+        "title": "Integritas",
+        "description": "Komunikasi jujur, proses transparan, dan praktik bisnis yang etis."
+      },
+      "innovation": {
+        "title": "Inovasi",
+        "description": "Merangkul teknologi baru dan solusi kreatif untuk melampaui ekspektasi."
+      }
+    },
+    "timeline": {
+      "title": "Perjalanan Kami",
+      "description": "Tonggak penting yang telah membentuk Balitecture menjadi perusahaan seperti sekarang ini.",
+      "founded": {
+        "title": "Perusahaan Didirikan",
+        "description": "Dimulai sebagai firma arsitektur kecil dengan impian besar dan passion untuk desain Bali."
+      },
+      "expansion": {
+        "title": "Ekspansi Layanan",
+        "description": "Menambahkan layanan konstruksi dan manajemen properti untuk menawarkan solusi komprehensif."
+      },
+      "recognition": {
+        "title": "Pengakuan Industri",
+        "description": "Menerima penghargaan arsitektur besar pertama untuk desain vila inovatif."
+      },
+      "innovation": {
+        "title": "Inovasi Digital",
+        "description": "Mengimplementasikan visualisasi 3D dan virtual reality untuk pengalaman klien yang lebih baik."
+      },
+      "present": {
+        "title": "Memimpin Pasar",
+        "description": "Mapan sebagai salah satu perusahaan pengembangan properti premier di Bali dengan 150+ proyek selesai."
+      }
+    },
+    "team": {
+      "title": "Tim Kami",
+      "description": "Profesional berbakat yang membawa kreativitas, keahlian, dan dedikasi ke setiap proyek.",
+      "ceo": {
+        "role": "CEO & Pendiri",
+        "bio": "Dengan lebih dari 20 tahun di pengembangan properti, David memimpin visi kami menciptakan ruang luar biasa di Bali."
+      },
+      "architect": {
+        "role": "Arsitek Utama",
+        "bio": "Sarah membawa keahlian desain internasional dan apresiasi mendalam terhadap tradisi arsitektur Bali."
+      },
+      "manager": {
+        "role": "Manajer Proyek",
+        "bio": "Michael memastikan setiap proyek berjalan lancar dari konsepsi hingga penyelesaian dengan perhatian detail yang teliti."
+      },
+      "designer": {
+        "role": "Desainer Interior",
+        "bio": "Lisa menciptakan interior yang indah dan fungsional yang melengkapi desain arsitektur kami dengan sempurna."
+      }
+    },
+    "mission": {
+      "title": "Misi Kami",
+      "description": "Menciptakan properti luar biasa yang meningkatkan kehidupan, menghormati lingkungan, dan berkontribusi positif terhadap lanskap arsitektur Bali sambil memberikan nilai luar biasa kepada klien kami."
+    }
+  },
+  "projectsPage": {
+    "hero": {
+      "title": "Proyek Kami",
+      "subtitle": "Menampilkan Keunggulan di Setiap Bangunan"
+    },
+    "filterBy": "Filter berdasarkan:",
+    "filters": {
+      "all": "Semua Proyek",
+      "villa": "Vila",
+      "resort": "Resor",
+      "commercial": "Komersial",
+      "residential": "Residensial"
+    },
+    "bedrooms": "kamar tidur",
+    "viewDetails": "Lihat Detail",
+    "status": {
+      "completed": "Selesai",
+      "ongoing": "Berlangsung"
+    },
+    "projects": {
+      "villa1": {
+        "description": "Vila kontemporer menakjubkan dengan ruang terbuka, kolam infinity, dan pemandangan panorama lanskap Seminyak yang vibrant.",
+        "features": {
+          "pool": "Kolam Infinity 25m",
+          "garden": "Taman Lanskap Tropis",
+          "garage": "Garasi 2 Mobil",
+          "security": "Sistem Keamanan 24/7"
+        }
+      },
+      "resort1": {
+        "description": "Resor mewah tepi pantai dengan 24 suite, fasilitas spa kelas dunia, dan akses langsung ke spot surfing terkenal Canggu.",
+        "features": {
+          "beachfront": "Pantai Pribadi 200m",
+          "restaurant": "Restoran Fine Dining",
+          "spa": "Spa Pemenang Penghargaan",
+          "pool": "Kolam Infinity 3 Tingkat"
+        }
+      },
+      "villa2": {
+        "description": "Vila ramah lingkungan yang terletak di teras sawah Ubud, dirancang dengan bahan berkelanjutan dan arsitektur tradisional Bali.",
+        "features": {
+          "view": "Pemandangan Teras Sawah",
+          "yoga": "Paviliun Yoga Pribadi",
+          "organic": "Kebun Organik",
+          "sustainable": "Bahan Berkelanjutan"
+        }
+      },
+      "villa3": {
+        "description": "Vila tebing dramatis dengan pemandangan laut yang menakjubkan, menampilkan desain minimalis modern dan fasilitas mewah.",
+        "features": {
+          "cliff": "Lokasi Tebing",
+          "infinity": "Kolam Infinity",
+          "elevator": "Elevator Pribadi",
+          "cinema": "Home Cinema"
+        }
+      },
+      "residential1": {
+        "description": "Rumah residensial damai di Sanur dengan taman tropis, ventilasi alami, dan elemen tradisional Indonesia.",
+        "features": {
+          "tropical": "Taman Tropis",
+          "courtyard": "Halaman Tengah",
+          "natural": "Ventilasi Alami",
+          "meditation": "Ruang Meditasi"
+        }
+      },
+      "villa4": {
+        "description": "Vila kontemporer di Nusa Dua bergengsi dengan teknologi smart home dan fasilitas bergaya resor.",
+        "features": {
+          "contemporary": "Desain Kontemporer",
+          "smart": "Sistem Smart Home",
+          "wine": "Wine Cellar",
+          "gym": "Gym Pribadi"
+        }
+      },
+      "commercial1": {
+        "description": "Hotel butik di Jimbaran yang menggabungkan kemewahan modern dengan keramahan dan elemen desain Bali yang autentik.",
+        "features": {
+          "boutique": "Desain Butik",
+          "rooftop": "Rooftop Bar",
+          "conference": "Fasilitas Konferensi",
+          "wellness": "Wellness Center"
+        }
+      },
+      "resort2": {
+        "description": "Eco-resort di pegunungan Munduk menawarkan kemewahan berkelanjutan dan pengalaman alam yang imersif.",
+        "features": {
+          "eco": "Desain Ramah Lingkungan",
+          "mountain": "Pemandangan Gunung",
+          "adventure": "Aktivitas Petualangan",
+          "local": "Integrasi Komunitas Lokal"
+        }
+      }
+    },
+    "stats": {
+      "title": "Statistik Proyek",
+      "description": "Komitmen kami terhadap keunggulan tercermin dalam angka.",
+      "completed": "Proyek Selesai",
+      "ongoing": "Proyek Berlangsung",
+      "satisfaction": "Kepuasan Klien",
+      "awards": "Penghargaan Desain"
+    }
+  },
+  "projectDetail": {
+    "backToProjects": "Kembali ke Proyek",
+    "info": {
+      "year": "Tahun",
+      "area": "Luas",
+      "bedrooms": "Kamar Tidur",
+      "duration": "Durasi",
+      "budget": "Anggaran",
+      "status": "Status"
+    },
+    "status": {
+      "completed": "Selesai",
+      "ongoing": "Berlangsung"
+    },
+    "sections": {
+      "overview": "Gambaran Proyek",
+      "challenge": "Tantangan",
+      "solution": "Solusi Kami",
+      "result": "Hasilnya",
+      "gallery": "Galeri Proyek"
+    },
+    "sidebar": {
+      "details": "Detail Proyek",
+      "client": "Klien",
+      "architect": "Arsitek",
+      "contractor": "Kontraktor",
+      "bathrooms": "Kamar Mandi",
+      "features": "Fitur Utama",
+      "materials": "Bahan yang Digunakan",
+      "awards": "Penghargaan & Pengakuan"
+    },
+    "related": {
+      "title": "Proyek Terkait",
+      "description": "Jelajahi lebih banyak karya luar biasa kami"
+    },
+    "villa1": {
+      "description": "Vila mewah di Seminyak ini merepresentasikan perpaduan sempurna antara desain kontemporer dan kehidupan tropis. Dengan luas 450 meter persegi, properti ini memiliki empat kamar tidur luas, masing-masing dengan kamar mandi en-suite dan teras pribadi yang menghadap taman rimbun dan kolam infinity.",
+      "challenge": "Tantangan utama adalah menciptakan vila modern yang menonjol di pasar mewah Seminyak yang kompetitif sambil menghormati konteks arsitektur lokal dan memaksimalkan ukuran plot yang relatif kompak.",
+      "solution": "Kami merancang struktur multi-level yang memaksimalkan ruang vertikal sambil mempertahankan aliran horizontal. Penggunaan bahan alami seperti jati dan batu lokal menciptakan harmoni dengan lingkungan, sementara jendela dari lantai ke langit-langit dan area hidup terbuka meningkatkan rasa ruang.",
+      "result": "Vila yang selesai telah menjadi benchmark untuk kehidupan mewah di Seminyak, mencapai tingkat okupansi 95% sebagai properti sewa dan memenangkan Bali Architecture Award untuk Best Residential Design pada 2023.",
+      "features": {
+        "pool": "Kolam Infinity 25m",
+        "garden": "Taman Lanskap Tropis",
+        "garage": "Garasi 2 Mobil",
+        "security": "Sistem Keamanan 24/7",
+        "kitchen": "Dapur Gourmet",
+        "terrace": "Teras Rooftop"
+      },
+      "materials": {
+        "teak": "Kayu Jati Berkelanjutan",
+        "stone": "Batu Paras Lokal",
+        "glass": "Kaca Hemat Energi",
+        "steel": "Perlengkapan Stainless Steel"
+      },
+      "awards": {
+        "design": "Best Residential Design 2023",
+        "sustainability": "Green Building Excellence Award"
+      }
+    },
+    "resort1": {
+      "description": "Resor tepi pantai di Canggu ini mendefinisikan ulang keramahan mewah dengan 24 suite yang elegan, spa kelas dunia, dan akses pantai langsung. Desainnya merayakan budaya Bali sambil menyediakan fasilitas dan kenyamanan modern.",
+      "challenge": "Menciptakan resor yang bisa bersaing dengan merek mewah internasional sambil mempertahankan karakter Bali yang autentik dan menangani tantangan konstruksi tepi pantai termasuk korosi udara asin dan pola cuaca musiman.",
+      "solution": "Kami menggunakan prinsip arsitektur tradisional Bali dengan teknik konstruksi modern, menggunakan bahan lokal yang diolah untuk kondisi pesisir. Tata letaknya mengikuti konsep desa tradisional dengan paviliun yang saling terhubung di sekitar halaman tengah.",
+      "result": "Resor ini telah mencapai pengakuan internasional, mempertahankan tingkat okupansi 90% dan menerima World Luxury Hotel Award untuk Best Beach Resort di Indonesia.",
+      "features": {
+        "beachfront": "Pantai Pribadi 200m",
+        "restaurant": "Restoran Fine Dining",
+        "spa": "Spa Pemenang Penghargaan",
+        "pool": "Kolam Infinity 3 Tingkat",
+        "conference": "Fasilitas Konferensi",
+        "fitness": "Gym Canggih"
+      },
+      "materials": {
+        "bamboo": "Bambu Bersertifikat",
+        "local": "Batu Vulkanik Lokal",
+        "recycled": "Jati Daur Ulang",
+        "natural": "Tekstil Serat Alami"
+      },
+      "awards": {
+        "hospitality": "World Luxury Hotel Award",
+        "eco": "Sustainable Tourism Award"
+      }
+    }
   }
 }

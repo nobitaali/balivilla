@@ -243,5 +243,359 @@
     "rights": "All rights reserved.",
     "quickLinks": "Quick Links",
     "services": "Services"
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive Property Solutions for Every Need"
+    },
+    "overview": {
+      "title": "What We Do",
+      "description": "From land acquisition to construction completion, we provide end-to-end property development services that transform your vision into reality."
+    },
+    "services": {
+      "land": {
+        "title": "Land Acquisition",
+        "description": "Strategic land investment opportunities in Bali's most desirable locations with complete legal support."
+      },
+      "architecture": {
+        "title": "Architecture Design",
+        "description": "Innovative architectural solutions that blend modern aesthetics with traditional Balinese elements."
+      },
+      "furniture": {
+        "title": "Custom Furniture",
+        "description": "Handcrafted furniture pieces using traditional craftsmanship and sustainable local materials."
+      },
+      "villaManagement": {
+        "title": "Villa Management",
+        "description": "Professional property management services to maximize your investment returns and guest satisfaction."
+      },
+      "construction": {
+        "title": "Construction",
+        "description": "Expert construction services delivering high-quality builds with international standards."
+      }
+    },
+    "learnMore": "Learn More",
+    "stats": {
+      "title": "Our Track Record",
+      "description": "Numbers that speak to our commitment to excellence and client satisfaction.",
+      "projects": "Projects Completed",
+      "years": "Years Experience",
+      "clients": "Happy Clients",
+      "awards": "Industry Awards"
+    },
+    "process": {
+      "title": "Our Process",
+      "description": "A proven methodology that ensures successful project delivery from concept to completion.",
+      "step1": {
+        "title": "Consultation",
+        "description": "Understanding your vision, requirements, and budget to create the perfect plan."
+      },
+      "step2": {
+        "title": "Design & Planning",
+        "description": "Detailed architectural plans and project timeline with all necessary permits."
+      },
+      "step3": {
+        "title": "Construction",
+        "description": "Expert execution with regular updates and quality control at every stage."
+      },
+      "step4": {
+        "title": "Completion",
+        "description": "Final inspection, handover, and ongoing support for your new property."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "description": "Real experiences from satisfied clients who trusted us with their property dreams.",
+      "client1": {
+        "role": "Villa Owner",
+        "content": "Balitecture transformed our vision into a stunning reality. Their attention to detail and professionalism exceeded our expectations."
+      },
+      "client2": {
+        "role": "Resort Developer",
+        "content": "Working with Balitecture was seamless. They delivered our resort project on time and within budget with exceptional quality."
+      },
+      "client3": {
+        "role": "Property Investor",
+        "content": "Their land acquisition service helped us find the perfect investment opportunity. The legal support was invaluable."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Let's discuss how we can bring your property vision to life with our comprehensive services.",
+      "button": "Get Started Today"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About Balitecture",
+      "subtitle": "Building Dreams, Creating Legacies"
+    },
+    "story": {
+      "title": "Our Story",
+      "description1": "Founded in 2008 by a team of passionate architects and developers, Balitecture began with a simple mission: to create exceptional properties that honor Bali's natural beauty while meeting international standards.",
+      "description2": "Over the years, we've grown from a small design studio to a comprehensive property development company, completing over 150 projects across Bali. Our work spans luxury villas, boutique resorts, commercial spaces, and residential developments.",
+      "description3": "What sets us apart is our deep understanding of local culture, regulations, and craftsmanship, combined with international expertise and modern design principles. Every project we undertake reflects our commitment to excellence, sustainability, and client satisfaction."
+    },
+    "stats": {
+      "projects": "Projects Completed",
+      "years": "Years of Experience",
+      "clients": "Satisfied Clients",
+      "awards": "Industry Awards"
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "The principles that guide everything we do and shape our relationships with clients, partners, and the community.",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for perfection in every detail, from initial design to final construction."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Our love for architecture and design drives us to create truly exceptional spaces."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "Honest communication, transparent processes, and ethical business practices."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Embracing new technologies and creative solutions to exceed expectations."
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "description": "Key milestones that have shaped Balitecture into the company we are today.",
+      "founded": {
+        "title": "Company Founded",
+        "description": "Started as a small architectural firm with big dreams and a passion for Balinese design."
+      },
+      "expansion": {
+        "title": "Service Expansion",
+        "description": "Added construction and property management services to offer comprehensive solutions."
+      },
+      "recognition": {
+        "title": "Industry Recognition",
+        "description": "Received our first major architecture award for innovative villa design."
+      },
+      "innovation": {
+        "title": "Digital Innovation",
+        "description": "Implemented 3D visualization and virtual reality for enhanced client experience."
+      },
+      "present": {
+        "title": "Leading the Market",
+        "description": "Established as one of Bali's premier property development companies with 150+ completed projects."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "description": "The talented professionals who bring creativity, expertise, and dedication to every project.",
+      "ceo": {
+        "role": "CEO & Founder",
+        "bio": "With over 20 years in property development, David leads our vision of creating exceptional spaces in Bali."
+      },
+      "architect": {
+        "role": "Lead Architect",
+        "bio": "Sarah brings international design expertise and a deep appreciation for Balinese architectural traditions."
+      },
+      "manager": {
+        "role": "Project Manager",
+        "bio": "Michael ensures every project runs smoothly from conception to completion with meticulous attention to detail."
+      },
+      "designer": {
+        "role": "Interior Designer",
+        "bio": "Lisa creates beautiful, functional interiors that perfectly complement our architectural designs."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To create exceptional properties that enhance lives, respect the environment, and contribute positively to Bali's architectural landscape while delivering outstanding value to our clients."
+    }
+  },
+  "projectsPage": {
+    "hero": {
+      "title": "Our Projects",
+      "subtitle": "Showcasing Excellence in Every Build"
+    },
+    "filterBy": "Filter by:",
+    "filters": {
+      "all": "All Projects",
+      "villa": "Villas",
+      "resort": "Resorts",
+      "commercial": "Commercial",
+      "residential": "Residential"
+    },
+    "bedrooms": "bedrooms",
+    "viewDetails": "View Details",
+    "status": {
+      "completed": "Completed",
+      "ongoing": "Ongoing"
+    },
+    "projects": {
+      "villa1": {
+        "description": "A stunning contemporary villa featuring open-plan living, infinity pool, and panoramic views of Seminyak's vibrant landscape.",
+        "features": {
+          "pool": "25m Infinity Pool",
+          "garden": "Tropical Landscape Garden",
+          "garage": "2-Car Garage",
+          "security": "24/7 Security System"
+        }
+      },
+      "resort1": {
+        "description": "Luxury beachfront resort with 24 suites, world-class spa facilities, and direct access to Canggu's famous surf breaks.",
+        "features": {
+          "beachfront": "200m Private Beach",
+          "restaurant": "Fine Dining Restaurant",
+          "spa": "Award-Winning Spa",
+          "pool": "3-Tier Infinity Pool"
+        }
+      },
+      "villa2": {
+        "description": "Eco-friendly villa nestled in Ubud's rice terraces, designed with sustainable materials and traditional Balinese architecture.",
+        "features": {
+          "view": "Rice Terrace Views",
+          "yoga": "Private Yoga Pavilion",
+          "organic": "Organic Garden",
+          "sustainable": "Sustainable Materials"
+        }
+      },
+      "villa3": {
+        "description": "Dramatic cliffside villa with breathtaking ocean views, featuring modern minimalist design and luxury amenities.",
+        "features": {
+          "cliff": "Cliffside Location",
+          "infinity": "Infinity Pool",
+          "elevator": "Private Elevator",
+          "cinema": "Home Cinema"
+        }
+      },
+      "residential1": {
+        "description": "Peaceful residential home in Sanur with tropical gardens, natural ventilation, and traditional Indonesian elements.",
+        "features": {
+          "tropical": "Tropical Gardens",
+          "courtyard": "Central Courtyard",
+          "natural": "Natural Ventilation",
+          "meditation": "Meditation Space"
+        }
+      },
+      "villa4": {
+        "description": "Contemporary villa in prestigious Nusa Dua featuring smart home technology and resort-style amenities.",
+        "features": {
+          "contemporary": "Contemporary Design",
+          "smart": "Smart Home System",
+          "wine": "Wine Cellar",
+          "gym": "Private Gym"
+        }
+      },
+      "commercial1": {
+        "description": "Boutique hotel in Jimbaran combining modern luxury with authentic Balinese hospitality and design elements.",
+        "features": {
+          "boutique": "Boutique Design",
+          "rooftop": "Rooftop Bar",
+          "conference": "Conference Facilities",
+          "wellness": "Wellness Center"
+        }
+      },
+      "resort2": {
+        "description": "Eco-resort in the mountains of Munduk offering sustainable luxury and immersive nature experiences.",
+        "features": {
+          "eco": "Eco-Friendly Design",
+          "mountain": "Mountain Views",
+          "adventure": "Adventure Activities",
+          "local": "Local Community Integration"
+        }
+      }
+    },
+    "stats": {
+      "title": "Project Statistics",
+      "description": "Our commitment to excellence reflected in numbers.",
+      "completed": "Completed Projects",
+      "ongoing": "Ongoing Projects",
+      "satisfaction": "Client Satisfaction",
+      "awards": "Design Awards"
+    }
+  },
+  "projectDetail": {
+    "backToProjects": "Back to Projects",
+    "info": {
+      "year": "Year",
+      "area": "Area",
+      "bedrooms": "Bedrooms",
+      "duration": "Duration",
+      "budget": "Budget",
+      "status": "Status"
+    },
+    "status": {
+      "completed": "Completed",
+      "ongoing": "Ongoing"
+    },
+    "sections": {
+      "overview": "Project Overview",
+      "challenge": "The Challenge",
+      "solution": "Our Solution",
+      "result": "The Result",
+      "gallery": "Project Gallery"
+    },
+    "sidebar": {
+      "details": "Project Details",
+      "client": "Client",
+      "architect": "Architect",
+      "contractor": "Contractor",
+      "bathrooms": "Bathrooms",
+      "features": "Key Features",
+      "materials": "Materials Used",
+      "awards": "Awards & Recognition"
+    },
+    "related": {
+      "title": "Related Projects",
+      "description": "Explore more of our exceptional work"
+    },
+    "villa1": {
+      "description": "This luxury villa in Seminyak represents the perfect fusion of contemporary design and tropical living. Spanning 450 square meters, the property features four spacious bedrooms, each with en-suite bathrooms and private terraces overlooking the lush gardens and infinity pool.",
+      "challenge": "The main challenge was creating a modern villa that would stand out in Seminyak's competitive luxury market while respecting the local architectural context and maximizing the relatively compact plot size.",
+      "solution": "We designed a multi-level structure that maximizes vertical space while maintaining horizontal flow. The use of natural materials like teak and local stone creates harmony with the environment, while floor-to-ceiling windows and open-plan living areas enhance the sense of space.",
+      "result": "The completed villa has become a benchmark for luxury living in Seminyak, achieving 95% occupancy rates as a rental property and winning the Bali Architecture Award for Best Residential Design in 2023.",
+      "features": {
+        "pool": "25m Infinity Pool",
+        "garden": "Tropical Landscape Garden",
+        "garage": "2-Car Garage",
+        "security": "24/7 Security System",
+        "kitchen": "Gourmet Kitchen",
+        "terrace": "Rooftop Terrace"
+      },
+      "materials": {
+        "teak": "Sustainable Teak Wood",
+        "stone": "Local Paras Stone",
+        "glass": "Energy-Efficient Glass",
+        "steel": "Stainless Steel Fixtures"
+      },
+      "awards": {
+        "design": "Best Residential Design 2023",
+        "sustainability": "Green Building Excellence Award"
+      }
+    },
+    "resort1": {
+      "description": "This beachfront resort in Canggu redefines luxury hospitality with its 24 elegantly appointed suites, world-class spa, and direct beach access. The design celebrates Balinese culture while providing modern amenities and comfort.",
+      "challenge": "Creating a resort that could compete with international luxury brands while maintaining authentic Balinese character and dealing with beachfront construction challenges including salt air corrosion and seasonal weather patterns.",
+      "solution": "We employed traditional Balinese architectural principles with modern construction techniques, using locally-sourced materials treated for coastal conditions. The layout follows traditional village concepts with interconnected pavilions around central courtyards.",
+      "result": "The resort has achieved international recognition, maintaining 90% occupancy rates and receiving the World Luxury Hotel Award for Best Beach Resort in Indonesia.",
+      "features": {
+        "beachfront": "200m Private Beach",
+        "restaurant": "Fine Dining Restaurant",
+        "spa": "Award-Winning Spa",
+        "pool": "3-Tier Infinity Pool",
+        "conference": "Conference Facilities",
+        "fitness": "State-of-Art Gym"
+      },
+      "materials": {
+        "bamboo": "Certified Bamboo",
+        "local": "Local Volcanic Stone",
+        "recycled": "Recycled Teak",
+        "natural": "Natural Fiber Textiles"
+      },
+      "awards": {
+        "hospitality": "World Luxury Hotel Award",
+        "eco": "Sustainable Tourism Award"
+      }
+    }
   }
 }

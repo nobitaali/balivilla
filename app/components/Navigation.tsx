@@ -28,9 +28,9 @@ export default function Navigation() {
   const isHomePage = pathname === `/${locale}` || pathname === `/${locale}/`;
 
   const navItems = [
-    { key: 'home', href: isHomePage ? '#home' : `/${locale}` },
-    { key: 'projects', href: isHomePage ? '#projects' : `/${locale}#projects` },
-    { key: 'about', href: isHomePage ? '#about' : `/${locale}#about` },
+    { key: 'home', href: `/${locale}` },
+    { key: 'projects', href: `/${locale}/projects` },
+    { key: 'about', href: `/${locale}/about` },
     { key: 'contact', href: isHomePage ? '#contact' : `/${locale}#contact` },
   ];
 
@@ -109,6 +109,12 @@ export default function Navigation() {
               <div className={`absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-100 py-2 transition-all duration-200 ${
                 isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
               }`}>
+                <Link
+                  href={`/${locale}/services`}
+                  className="block px-4 py-3 text-slate-700 hover:bg-slate-50 hover:text-black transition-colors font-medium border-b border-gray-100"
+                >
+                  All Services
+                </Link>
                 {serviceItems.map((service) => (
                   <Link
                     key={service.key}
