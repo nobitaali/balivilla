@@ -3,6 +3,8 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Home, Users, Shield, TrendingUp } from 'lucide-react';
+import Navigation from '../../../components/Navigation';
+import Footer from '../../../components/Footer';
 
 export default function VillaManagementPage() {
   const t = useTranslations('services.villaManagement');
@@ -53,6 +55,7 @@ export default function VillaManagementPage() {
 
   return (
     <div className="min-h-screen">
+      <Navigation />
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div
@@ -156,6 +159,7 @@ export default function VillaManagementPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

@@ -23,11 +23,15 @@ export default function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Check if we're on a service page
+  const isServicePage = pathname.includes('/services/');
+  const isHomePage = pathname === `/${locale}` || pathname === `/${locale}/`;
+
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'projects', href: '#projects' },
-    { key: 'about', href: '#about' },
-    { key: 'contact', href: '#contact' },
+    { key: 'home', href: isHomePage ? '#home' : `/${locale}` },
+    { key: 'projects', href: isHomePage ? '#projects' : `/${locale}#projects` },
+    { key: 'about', href: isHomePage ? '#about' : `/${locale}#about` },
+    { key: 'contact', href: isHomePage ? '#contact' : `/${locale}#contact` },
   ];
 
   const serviceItems = [
@@ -38,6 +42,18 @@ export default function Navigation() {
     { key: 'construction', href: `/${locale}/services/construction`, title: 'Construction' },
   ];
 
+  // Get current active service
+  const getCurrentService = () => {
+    if (pathname.includes('/services/land')) return 'land';
+    if (pathname.includes('/services/architecture')) return 'architecture';
+    if (pathname.includes('/services/furniture')) return 'furniture';
+    if (pathname.includes('/services/villa-management')) return 'villaManagement';
+    if (pathname.includes('/services/construction')) return 'construction';
+    return null;
+  };
+
+  const currentService = getCurrentService();
+
   const toggleLanguage = () => {
     const newLocale = locale === 'en' ? 'id' : 'en';
     const currentPath = pathname.replace(`/${locale}`, '');
@@ -47,7 +63,7 @@ export default function Navigation() {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg py-4' : 'bg-transparent py-6'
+        isScrolled || isServicePage ? 'bg-white shadow-lg py-4' : 'bg-transparent py-6'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -55,7 +71,7 @@ export default function Navigation() {
           <Link href={`/${locale}`} className="flex items-center space-x-2">
             <span
               className={`text-2xl font-bold font-serif transition-colors ${
-                isScrolled ? 'text-slate-900' : 'text-white'
+                isScrolled || isServicePage ? 'text-slate-900' : 'text-white'
               }`}
             >
               Balitecture
@@ -68,7 +84,7 @@ export default function Navigation() {
                 key={item.key}
                 href={item.href}
                 className={`transition-colors hover:text-gray-600 ${
-                  isScrolled ? 'text-slate-700' : 'text-white'
+                  isScrolled || isServicePage ? 'text-slate-700' : 'text-white'
                 }`}
               >
                 {t(item.key as any)}
@@ -83,8 +99,8 @@ export default function Navigation() {
             >
               <button
                 className={`flex items-center space-x-1 transition-colors hover:text-gray-600 ${
-                  isScrolled ? 'text-slate-700' : 'text-white'
-                }`}
+                  isScrolled || isServicePage ? 'text-slate-700' : 'text-white'
+                } ${currentService ? 'font-semibold' : ''}`}
               >
                 <span>{t('services')}</span>
                 <ChevronDown size={16} className={`transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />
@@ -97,7 +113,11 @@ export default function Navigation() {
                   <Link
                     key={service.key}
                     href={service.href}
-                    className="block px-4 py-3 text-slate-700 hover:bg-slate-50 hover:text-black transition-colors"
+                    className={`block px-4 py-3 transition-colors ${
+                      currentService === service.key
+                        ? 'bg-slate-100 text-black font-semibold'
+                        : 'text-slate-700 hover:bg-slate-50 hover:text-black'
+                    }`}
                   >
                     {service.title}
                   </Link>
@@ -108,7 +128,7 @@ export default function Navigation() {
             <button
               onClick={toggleLanguage}
               className={`flex items-center space-x-1 px-4 py-2 rounded-lg transition-all ${
-                isScrolled
+                isScrolled || isServicePage
                   ? 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}
@@ -122,7 +142,7 @@ export default function Navigation() {
 
           <button
             className={`md:hidden transition-colors ${
-              isScrolled ? 'text-slate-900' : 'text-white'
+              isScrolled || isServicePage ? 'text-slate-900' : 'text-white'
             }`}
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -159,7 +179,11 @@ export default function Navigation() {
                     <Link
                       key={service.key}
                       href={service.href}
-                      className="block text-slate-600 hover:text-gray-800 transition-colors py-1 text-sm"
+                      className={`block transition-colors py-1 text-sm ${
+                        currentService === service.key
+                          ? 'text-black font-semibold'
+                          : 'text-slate-600 hover:text-gray-800'
+                      }`}
                       onClick={() => {
                         setIsOpen(false);
                         setIsMobileServicesOpen(false);

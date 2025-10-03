@@ -3,6 +3,8 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { MapPin, TrendingUp, Shield, Users } from 'lucide-react';
+import Navigation from '../../../components/Navigation';
+import Footer from '../../../components/Footer';
 
 export default function LandPage() {
   const t = useTranslations('services.land');
@@ -53,6 +55,7 @@ export default function LandPage() {
 
   return (
     <div className="min-h-screen">
+      <Navigation />
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div
@@ -217,6 +220,7 @@ export default function LandPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

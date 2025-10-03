@@ -3,6 +3,8 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Hammer, HardHat, Clock, CheckCircle } from 'lucide-react';
+import Navigation from '../../../components/Navigation';
+import Footer from '../../../components/Footer';
 
 export default function ConstructionPage() {
   const t = useTranslations('services.construction');
@@ -53,6 +55,7 @@ export default function ConstructionPage() {
 
   return (
     <div className="min-h-screen">
+      <Navigation />
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div
@@ -156,6 +159,7 @@ export default function ConstructionPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
